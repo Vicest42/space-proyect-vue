@@ -10,7 +10,7 @@ const nasaApi = axios.create({
 
 export default {
     searchImages(query) {
-        return nasaApi.get(/search, {
+        return nasaApi.get(`/search`, {
             params: {
                 q: query,
                 media_type: 'image',

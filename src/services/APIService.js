@@ -6,6 +6,6 @@ export default {
         return api('/')
     },
     buscarAstros(busqueda){
-        return api(/${busqueda.nombre})
+        return api(`/${busqueda.nombre}`)
     }
 };
